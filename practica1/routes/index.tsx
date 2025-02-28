@@ -1,0 +1,11 @@
+import Modulo from "../islands/Modulo.tsx";
+
+export default function Home() {
+  return (
+    <div class="container">
+        <Modulo title="Módulo 1" text={["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quis nibh quis eros euismod auctor quis at erat. Praesent vel nibh dolor. Donec mattis vulputate est, imperdiet dignissim mauris lobortis blandit. Mauris nisi nisi, tempus ornare ultricies nec, consectetur nec magna. Quisque hendrerit luctus nisi, nec semper leo lobortis non. Nam quis enim vel diam placerat pretium. Vivamus at ante malesuada, ornare lectus id, ultrices lacus. Aliquam condimentum efficitur dolor in sodales. Cras orci quam, semper sit amet augue accumsan, malesuada lobortis velit. Sed lorem leo, tincidunt et metus cursus, pulvinar auctor nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Vivamus in ultricies lacus. Integer non maximus urna. Sed non hendrerit diam, nec fringilla enim."]}/>
+        <Modulo title="Módulo 2" text={["Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut scelerisque dolor velit, quis pellentesque magna faucibus sit amet. Donec dignissim arcu vel quam maximus molestie. Mauris non tincidunt diam, ac varius purus. Vestibulum quis erat purus. Donec et sapien accumsan, dignissim augue at, viverra orci. Phasellus nisl enim, sodales ac nulla eget, lobortis facilisis enim. Curabitur sagittis justo lectus. Nulla facilisi. Nulla facilisi."]}/>
+        <Modulo title="Módulo 3" text={["Donec dignissim lectus ac orci euismod, condimentum facilisis tortor fringilla. Nunc aliquam risus felis, ut finibus arcu feugiat non. Maecenas a egestas purus. Curabitur lectus urna, placerat sed orci id, facilisis consectetur purus. Maecenas laoreet, est eget lacinia feugiat, nunc dui porta dui, id rhoncus lacus nunc at elit. Duis a felis consequat eros blandit interdum. Integer eget interdum augue, id volutpat magna. Mauris sollicitudin magna libero, et sodales sem vehicula et. Pellentesque ullamcorper nibh risus, nec pulvinar lorem vestibulum lobortis. Aliquam a turpis non mi lacinia pretium non et mi."]}/>
+    </div>
+  );
+}
